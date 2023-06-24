@@ -4,3 +4,298 @@
     margin: 0;
     padding: 0;
 }
+
+.container {
+    width: 67%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.smedias {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.firstSection {
+    width: 100%;
+    height: 925px;
+    margin-bottom: 70px;
+}
+
+.bg1 {
+    width: 100%;
+    height: 1000px !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url(../images/bg1.png);
+    background-position: center;
+    background-size: cover;
+}
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.yellowBlock {
+    width: 624px;
+    height: 369px;
+    background-color: #F8F200;
+    clip-path: polygon(50px 0,100% 0,100% calc(100% - 50px), calc(100% - 50px) 100%,0 100%,0 50px);
+    font-size: 62px;
+    padding: 70px;
+}
+
+.learnMore {
+    border: none;
+    padding: 19px 50px;
+    align-items: center;
+    gap: 10px;
+    color: #F8F200;
+    background-color: black;
+    font-size: 24px;
+}
+
+.secondSection {
+    padding-top: 100px;
+    margin-bottom: 140px;
+}
+
+.nightCityTitle {
+    font-size: 62px;
+    margin-bottom: 25px;
+}
+
+.description {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 34px;
+    color: #777777;
+    margin-bottom: 70px;
+}
+
+.blue {
+    color: #52BEDC;
+}
+
+.grids {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.thirdSection {
+    padding: 15px 75px;
+    color: #ffff;
+}
+
+.head {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.headTitle {
+    font-size: 62px;
+}
+
+.bgBlack {
+    height: 720px;
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+.inputs {
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #777777;
+    outline: none;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+.desc {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.drop-zone {
+    width: 100%;
+    height: 120px;
+    border: 2px dashed #777777;
+    text-align: center;
+    font-size: 18px;
+    color: #777777;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.checkbox-container {
+    display: inline-block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    user-select: none;
+  }
+  
+  .checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: transparent;
+    border: 2px solid #bbb;
+  }
+  
+  
+
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .checkbox-container .checkmark:after {
+    content: "";
+    position: absolute;
+    left: 4px;
+    width: 5px;
+    height: 10px;
+    border: solid yellow;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 35%;
+  }
+
+.subBtm {
+    padding: 15px 50px;
+    background-color: #F8F200;
+    font-size: 18px;
+    width: fit-content;
+}
+
+.checkbox-txt {
+    font-weight: 300;
+    font-size: 12px;
+}
+
+
+.bot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blur {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+.blur1 {
+    position: relative;
+    top: -65px;
+}
+
+.fourthSection {
+    padding-top: 54px;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.fourthLeft {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.fourthRight {
+    margin-top: 70px;
+
+}
+
+.bgYellow {
+    height: 720px;
+    background-color:#F8F200;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+.fourthH1 {
+    font-size: 62px;
+    margin-bottom: 25px;
+}
+
+.fourthdsc {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.raws {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.raw {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+}
+
+.learn {
+    padding: 15px 50px;
+    background-color: #000;
+    font-size: 18px;
+    color: #F8F200;
+    width: fit-content;
+}

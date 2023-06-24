@@ -8,8 +8,9 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="conatiner">
-        <section>
+    <div class="container">
+        <section class="firstSection">
+            <img class="bg1" src="./images/bg1.png" alt="">
             <header>
                 <img src="./images/logo.png" alt="logo">
                 <div class="smedias">
@@ -21,11 +22,75 @@
                     <a href="#"><img src="./icons/instagram-square logo.svg" alt=""></a>
                 </div>
             </header>
-            <div class="yellowBlock">
-                <span>Доступно на всех платформах</span>
-                <button>Узнать больше</button>
+            <div class="content">
+                <div class="yellowBlock">
+                    <span>Доступно на всех платформах</span>
+                    <button class="learnMore">Узнать больше</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="secondSection">
+            <h1 class="nightCityTitle">Найт-Сити изменит тебя навсегда!</h1>
+            <p class="description"><span class="blue">Cyberpunk 2077</span> — приключенческая ролевая игра, действие которой происходит в мегаполисе Найт-Сити, где власть, роскошь и модификации тела ценятся выше всего. Ты играешь за V, наёмника в поисках устройства, позволяющего обрести бессмертие. Ты сможешь менять киберимпланты, навыки и стиль игры своего персонажа, исследуя открытый мир, где твои поступки влияют на ход сюжета и всё, что тебя окружает.</p>
+            <div class="grids">
+                <div class="left">
+                    <img class="image" src="./images/Rectangle 62.png" alt="">
+                    <img class="image" src="./images/Rectangle 63.png" alt="">
+                </div>
+                <img class="image" src="./images/Rectangle 61.png" alt="">
+            </div>
+        </section>
+
+        <section class="thirdSection">
+            <div class="bgBlack">
+                <img src="./images/22 1.png" class="blur blur1" alt="">
+
+            </div>
+            <div class="head">
+                <img src="./icons/sale.svg" alt="">
+                <h1 class="headTitle">Играй и выигрывай!</h1>
+            </div>
+            <p class="desc">Играй в <span class="blue">Cyberpunk 2077</span> и получи возможность выиграть консоль <span class="blue">Xbox Series X</span> или <span class="blue">Sony PlayStation 5!</span> Заполни форму ниже и приложи скриншот о покупке игры. Итоги розыгрыша будут подведены 1 февраля. Удачи! ;)</p>
+            <div class="bot">
+                <form>
+                    <input type="text" required name="name" class="inputs" placeholder="Как тебя зовут?">
+                    <input type="email" required name="email" class="inputs" placeholder="Твой е-mail">
+                    <div id="dropZone" class="drop-zone">
+                        <span>Прикрепить скриншот</span>
+                        <span>.png / .jpg / .pdf</span>
+                    </div>
+                    <button type="submit" class="subBtm">Отправить</button>
+                    <label class="checkbox-container">
+                        <input type="checkbox" required name="agreement">
+                        <span class="checkmark"></span>
+                        <span class="checkbox-txt">Согласен на обработку персональных данных</span>
+                    </label>
+                </form>
+                <img src="./images/Group 217.png" alt="">
+            </div>
+            <img src="./images/22 2.png" class="blur" alt="">
+        </section>
+
+        <section class="fourthSection">
+            <div class="bgYellow"></div>
+            <div class="fourthLeft">
+                <img src="./images/monitor.png" alt="">
+                <img src="./icons/hpxcb.png" alt="">
+            </div>
+            <div class="fourthRight">
+                <h1 class="fourthH1">Полное погружение вместе с HP</h1>
+                <p class="fourthdsc">Погрузись в современные экшен-игры с реалистичным изображением с помощью монитора с диагональю 23,8 дюйма, созданном для отображения максимально насыщенных цветов. Успевай реагировать на любые события с временем отклика 1 мс и частотой в 144 Гц!</p>
+                <div class="raws">
+                    <div class="raw"><img src="./icons/color_lens.svg" alt=""> Яркие насыщенные цвета</div>
+                    <div class="raw"><img src="./icons/auto_awesome.svg" alt=""> Кристальная четкость изображения</div>
+                    <div class="raw"><img src="./icons/auto_awesome_motion.svg" alt=""> Быстрые движения и плавный геймплей</div>
+                </div>
+                <button class="learn">Подробнее</button>
             </div>
         </section>
     </div>
+
+    <script src="./scripts/index.js"></script>
 </body>
 </html>
