@@ -24,13 +24,13 @@ header {
 
 .firstSection {
     width: 100%;
-    height: 925px;
+    height: 895px;
     margin-bottom: 70px;
 }
 
 .bg1 {
     width: 100%;
-    height: 1000px !important;
+    height: 1000px;
     position: absolute;
     top: 0;
     left: 0;
@@ -38,7 +38,9 @@ header {
     background-image: url(../images/bg1.png);
     background-position: center;
     background-size: cover;
+    transition: .8s ease;
 }
+
 .content {
     width: 100%;
     height: 100%;
@@ -91,16 +93,29 @@ header {
 .grids {
     display: flex;
     justify-content: space-between;
+    gap: 32px;
+    width: 100%;
 }
 
 .left {
     display: flex;
     flex-direction: column;
     gap: 32px;
+    width: 40%;
 }
 
+.image {
+    width: 100%;
+}
+
+.imageBig {
+    width: 60%;
+}
+
+
+
 .thirdSection {
-    padding: 15px 75px;
+    padding: 75px 15px 0 15px;
     color: #ffff;
 }
 
@@ -131,7 +146,12 @@ header {
     outline: none;
     background-color: transparent;
     font-size: 18px;
+    color: #777777;
 }
+
+.ps5 {
+    width: 60%;
+} 
 
 .desc {
     font-size: 18px;
@@ -237,7 +257,12 @@ header {
 
 .blur1 {
     position: relative;
-    top: -65px;
+    top: -8%;
+}
+
+.blur2 {
+    position: relative;
+    top: 1%;
 }
 
 .fourthSection {
@@ -245,6 +270,7 @@ header {
     display: flex;
     justify-content: space-between;
     gap: 32px;
+    margin-bottom: 100px;
 }
 
 .fourthLeft {
@@ -256,11 +282,11 @@ header {
 
 .fourthRight {
     margin-top: 70px;
-
+    width: 50%;
 }
 
 .bgYellow {
-    height: 720px;
+    height: 100%;
     background-color:#F8F200;
     width: 100%;
     position: absolute;
@@ -282,7 +308,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    margin-bottom: 40px;
+    margin-bottom: 40px ;
 }
 
 .raw {
@@ -298,4 +324,88 @@ header {
     font-size: 18px;
     color: #F8F200;
     width: fit-content;
+}
+
+.fifthSection {
+    display: flex;
+    height: fit-content;
+}
+
+.right5 {
+    padding: 70px 32px;
+    color: white;
+    background-color: #000;
+    width: 100%;
+}
+
+.titleBlue {
+    font-size: 24px;
+    color: #52BEDC;
+    margin-bottom: 20px;
+}
+
+.title5 {
+    font-size: 62px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+footer {
+    padding: 13px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footLeft, .footRight {
+    display: flex;
+    gap: 32px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.last {
+    height: 40px;
+    width: 100%;
+    background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+
+.imgMonik {
+    width: 100%;
+}
+
+.monikImg2 {
+    width: 40px;
+}
+
+.monikImg1 {
+    width: 80px;
+}
+
+.monikImg3 {
+    width: 300px;
+}
+
+.imgMonikBlock {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.disksImg {
+    width: 100%;
+    height: 783px;
+    background-image: url(../images/disks.png);
+    background-position: center;
+    background-size: cover;
 }

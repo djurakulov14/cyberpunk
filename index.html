@@ -5,21 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./fonts/stylesheet.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/media.css">
     <title>Document</title>
 </head>
 <body>
     <div class="container">
         <section class="firstSection">
-            <img class="bg1" src="./images/bg1.png" alt="">
+            <div class="bg1"></div>
             <header>
-                <img src="./images/logo.png" alt="logo">
+                <img src="./icons/Logo.png" alt="logo">
                 <div class="smedias">
-                    <a href="#"><img src="./icons/youtube logo.svg" alt=""></a>
-                    <a href="#"><img src="./icons/vk logo.svg" alt=""></a>
-                    <a href="#"><img src="./icons/facebook-rect logo.svg" alt=""></a>
-                    <a href="#"><img src="./icons/twitter-square logo.svg" alt=""></a>
-                    <a href="#"><img src="./icons/twitch logo.svg" alt=""></a>
-                    <a href="#"><img src="./icons/instagram-square logo.svg" alt=""></a>
+                    <a href="#"><img class="socials" src="./icons/youtube logo.svg" alt=""></a>
+                    <a href="#"><img class="socials" src="./icons/vk logo.svg" alt=""></a>
+                    <a href="#"><img class="socials" src="./icons/facebook-rect logo.svg" alt=""></a>
+                    <a href="#"><img class="socials" src="./icons/twitter-square logo.svg" alt=""></a>
+                    <a href="#"><img class="socials" src="./icons/twitch logo.svg" alt=""></a>
+                    <a href="#"><img class="socials" src="./icons/instagram-square logo.svg" alt=""></a>
                 </div>
             </header>
             <div class="content">
@@ -38,7 +39,7 @@
                     <img class="image" src="./images/Rectangle 62.png" alt="">
                     <img class="image" src="./images/Rectangle 63.png" alt="">
                 </div>
-                <img class="image" src="./images/Rectangle 61.png" alt="">
+                <img class="imageBig" src="./images/Rectangle 61.png" alt="">
             </div>
         </section>
 
@@ -48,12 +49,12 @@
 
             </div>
             <div class="head">
-                <img src="./icons/sale.svg" alt="">
+                <img class="saleImg" src="./icons/sale.svg" alt="">
                 <h1 class="headTitle">Играй и выигрывай!</h1>
             </div>
             <p class="desc">Играй в <span class="blue">Cyberpunk 2077</span> и получи возможность выиграть консоль <span class="blue">Xbox Series X</span> или <span class="blue">Sony PlayStation 5!</span> Заполни форму ниже и приложи скриншот о покупке игры. Итоги розыгрыша будут подведены 1 февраля. Удачи! ;)</p>
             <div class="bot">
-                <form>
+                <form name="sale">
                     <input type="text" required name="name" class="inputs" placeholder="Как тебя зовут?">
                     <input type="email" required name="email" class="inputs" placeholder="Твой е-mail">
                     <div id="dropZone" class="drop-zone">
@@ -67,16 +68,23 @@
                         <span class="checkbox-txt">Согласен на обработку персональных данных</span>
                     </label>
                 </form>
-                <img src="./images/Group 217.png" alt="">
+                <img class="ps5" src="./images/Group 217.png" alt="">
             </div>
-            <img src="./images/22 2.png" class="blur" alt="">
+            <div class="bgBlack">
+                
+                <img src="./images/22 2.png" class="blur blur2" alt="">
+            </div>
         </section>
 
         <section class="fourthSection">
             <div class="bgYellow"></div>
             <div class="fourthLeft">
-                <img src="./images/monitor.png" alt="">
-                <img src="./icons/hpxcb.png" alt="">
+                <img class="imgMonik" src="./images/monitor.png" alt="">
+                <div class="imgMonikBlock">
+                    <img class="monikImg1" src="./icons/hp-2 logo.svg" alt="">
+                    <img class="monikImg2" src="./icons/krest.svg" alt="">
+                    <img class="monikImg3" src="./icons/Logo.png" alt="">
+                </div>
             </div>
             <div class="fourthRight">
                 <h1 class="fourthH1">Полное погружение вместе с HP</h1>
@@ -89,6 +97,45 @@
                 <button class="learn">Подробнее</button>
             </div>
         </section>
+    </div>
+
+    <section class="fifthSection">
+        <div class="disksImg"></div>
+        <div class="right5">
+            <h1 class="title5">Купить игру <br> Cyberpunk 2077</h1>
+
+            <div class="complect">
+                <h1 class="titleBlue">В комплект входит:</h1>
+                <div class="raws">
+                    <div class="raw"><img src="./icons/disk.svg" alt="">Футляр с игровыми дисками   </div>
+                    <div class="raw"><img src="./icons/wysiwyg.svg" alt="">Футляр с кодом для загрузки игры и дисками (pc)</div>
+                    <div class="raw"><img src="./icons/collections.svg" alt="">Справочник с информацией об игровом мире</div>
+                </div>
+                <div class="platforms">
+                    <h1 class="titleBlue">Выберите платформу:</h1>
+                    <img class="platformsImg" src="./icons/platforms.png" alt="">
+                </div>
+            </div>
+        
+        </div>
+    </section>
+
+    <div class="container">
+        <footer>
+            <div class="footLeft">
+                <img src="./icons/Logo.png" alt="">
+                <img src="./icons/CD_Projekt_logo 1.svg" alt="">
+            </div>
+
+            <div class="footRight">
+                <a href="#">Лицензия</a>
+                <a href="#">Политика конфиденциальности</a>
+            </div>
+        </footer>
+    </div>
+
+    <div class="last">
+        CD PROJEKT®, Cyberpunk®, Cyberpunk 2077®
     </div>
 
     <script src="./scripts/index.js"></script>

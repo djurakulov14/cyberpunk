@@ -1,0 +1,231 @@
+@media only screen and (max-width: 1650px) {
+    .blur1 {
+        position: relative;
+        top: -6%;
+    }
+    
+    .blur2 {
+        position: relative;
+        top: 2.8%;
+    }
+
+    .container {
+        width: 85%;
+    }
+}
+
+
+
+@media only screen and (max-width: 1360px) {
+    .imgMonikBlock {
+        flex-direction: column;
+        align-items: center;
+    }
+    .bgYellow {
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 1215px) {
+    .blur1 {
+        position: relative;
+        top: -5%;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+   .container {
+    width: 95%;
+   }
+   
+    .disksImg {
+        width: 50%;
+    }
+
+    .grids {
+        flex-direction: column;
+        gap: 18px;
+    }
+    .left {
+        flex-direction: row;
+        gap: 18px;
+        width: 100%;
+    }
+    .imageBig {
+        width: 100%;
+    }
+    .image {
+        width: 50%;
+    }
+    .blur1 {
+        position: relative;
+        top: -4%;
+    }
+    .blur2 {
+        position: relative;
+        top: 3.5%;
+    }
+    footer {
+        flex-direction: column;
+        gap: 18px;
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    .fifthSection {
+        flex-direction: column;
+    }
+    .disksImg {
+        width: 100%;
+        height: 500px;
+    }
+    .fourthH1 {
+        font-size: 42px;
+    }
+    .fourthLeft {
+        width: 50%;
+    }
+    .smedias {
+        gap: 28px;
+    }
+    .socials {
+        width: 28px;
+    }
+    .blur1 {
+        position: relative;
+        top: -3%;
+    }
+    .blur2 {
+        position: relative;
+        top: 4.5%;
+    }
+    .secondSection {
+        margin-bottom: 30px;
+    }
+    .headTitle {
+        font-size: 42px
+    }
+    .saleImg {
+        display: 80px;
+    }
+    .bot {
+        flex-direction: column;
+    }
+    form {
+        width: 100%;
+    }
+    .ps5 {
+        display: none;
+    }
+    header {
+        flex-direction: column;
+    }
+    .yellowBlock {
+        width: 60%;
+        height: fit-content;
+        padding: 40px;
+        font-size: 42px;
+    }
+    .learnMore {
+        padding: 17px 30px;
+
+    }
+}
+
+@media only screen and (max-width: 630px) {
+
+    .left {
+        flex-direction: column;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .fourthSection {
+        flex-direction: column;
+        margin-bottom: 18px;
+    }
+    .fourthLeft {
+        width: 100%;
+    }
+    .imgMonik {
+        width: 100%;
+    }
+    .fourthRight {
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .imgMonikBlock {
+        flex-direction: row;
+    }
+    .blur1 {
+        position: relative;
+        top: -2%;
+    }
+    .blur2 {
+        position: relative;
+        top: 5.5%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .footLeft {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .footRight {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .monikImg1 {
+        width: 40px;
+    }
+    .monikImg3 {
+        width: 150px;
+    }
+    .yellowBlock {
+        width: 100%;
+    }
+    .nightCityTitle, .title5, .headTitle, .fourthH1, .title5{
+        font-size: 30px;
+    }
+    .saleImg {
+        width: 70px;
+    }
+    .disksImg {
+        height: 200px;
+    }
+    .right5 {
+        padding: 30px  12px;
+    } 
+    .platformsImg {
+        width: 290px;
+    }
+    .firstSection {
+        height: 700px;
+    }
+    .bg1 {
+        height: 807px;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .blur1 {
+        position: relative;
+        top: -1%;
+    }
+    .blur2 {
+        position: relative;
+        top:6%;
+    }
+    .platformsImg {
+        width: 300px;
+    }
+}
